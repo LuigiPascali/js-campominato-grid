@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="./css/framework.css">
         <link rel="stylesheet" href="./css/style.css">
 
-        <title>Griglia Campo Minato</title>
+        <title>Griglia Campo "Minato"</title>
         
     </head>
 
@@ -38,15 +38,17 @@
         <main>
 
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                
-                <h1 class="text-center text-uppercase mt-3">Campo Minato</h1>
 
-                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                <h1 class="text-center text-uppercase mt-3"> Campo "Minato" </h1>
 
-                    <button onclick="generateBoard()" class="btn">Play Game</button>
-
+                <div id="difficulty-buttons" class="d-flex justify-content-center align-items-center mt-3 mb-3" style="display: none;">
+                    <button id="easy-button" class="btn mx-2">Easy</button>
+                    <button id="medium-button" class="btn mx-2">Medium</button>
+                    <button id="hard-button" class="btn mx-2">Hard</button>
                 </div>
-                
+
+                <button id="reset-button" class="btn btn-danger mt-3" style="display: none;">Reset</button>
+
                 <div id="board" class="mt-4"></div>
 
             </div>
