@@ -37,19 +37,17 @@
         <!-- ! Main Start -->
         <main>
 
-            <div class="container">
-
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                
                 <h1 class="text-center text-uppercase mt-3">Campo Minato</h1>
 
-                <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
 
-                    <button class="btn start-button">Play Game</button>
+                    <button onclick="generateBoard()" class="btn">Play Game</button>
 
                 </div>
-
-                <div class="grid-container">
-                    
-                </div>
+                
+                <div id="board" class="mt-4"></div>
 
             </div>
 

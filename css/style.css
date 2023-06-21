@@ -2,13 +2,13 @@
     MAIN
 */
 
-.grid-container {display: grid;grid-template-columns: repeat(10, 1fr);grid-gap: .3125rem;}
-  
-.grid-cell {display: flex;justify-content: center;align-items: center;width: 3.125rem;height: 3.125rem;background-color: var(--grid_cell_bg);border: .0625rem solid var(--grid_cell_border);cursor: pointer;}
-  
-.grid-cell:hover {background-color: var(--hover_color);}
+.cell {height: 6.25rem;width: 6.25rem;background-color: var(--grid_cell_bg);border: 1px solid var(--grid_cell_border);cursor: pointer;}
 
-.btn {background-color: var(--button_color); color: var(--light_color); padding: .625rem 1.25rem; border-radius: .3125rem; text-transform: uppercase; box-shadow: 0rem .125rem .3125rem rgba(0, 0, 0, 0.25); cursor: pointer;}
+.cell:hover {background-color: var(--hover_color);}
+
+.cell.clicked {background-color: var(--clicked_color);}
+
+.btn {background-color: var(--button_color); color: var(--dark_color); padding: .625rem 1.25rem; border-radius: .3125rem; text-transform: uppercase; box-shadow: 0rem .125rem .3125rem rgba(0, 0, 0, 0.25); cursor: pointer;}
   
-.btn:hover {background-color: var(--hover_button_color); color: var(--light_color);}
-  
+.btn:hover {background-color: var(--hover_button_color); color: var(--dark_color);}
+

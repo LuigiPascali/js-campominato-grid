@@ -14,6 +14,7 @@
     --grid_cell_bg: #B3C5D7;
     --grid_cell_border: #999999;
     --hover_color: #F8F8F8;
+    --clicked_color: #7392B7;
     --button_color: #8DE4FF;
     --hover_button_color: #8AC4FF;
 }
