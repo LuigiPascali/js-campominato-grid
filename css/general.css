@@ -9,8 +9,12 @@
 :root {
     /* Color Palette */
     
-    --light_color:#FFFFFF ;
-    --dark_color: #0A0A0A ;
-
+    --light_color:#FFFFFF;
+    --dark_color: #0A0A0A;
+    --grid_cell_bg: #B3C5D7;
+    --grid_cell_border: #999999;
+    --hover_color: #F8F8F8;
+    --button_color: #8DE4FF;
+    --hover_button_color: #8AC4FF;
 }
 
