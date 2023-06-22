@@ -72,22 +72,22 @@ function generateBoard(difficulty) {
     // Creazione di un elemento div per rappresentare una riga:
     const rowElem = document.createElement('div');
     rowElem.className = 'row';
-
+  
     for (let col = 1; col <= cols; col++) {
       // Creazione di un elemento div per rappresentare una cella:
       const cell = document.createElement('div');
       cell.className = 'col-1 cell';
-
+  
       // Assegnazione del testo alla cella corrente basato sulla posizione nella griglia:
       cell.innerText = (row - 1) * cols + col;
-
+  
       // Aggiunta dell'evento di click alla cella
       cell.addEventListener('click', handleClick);
-
+  
       // Aggiunta della cella alla riga corrente:
       rowElem.appendChild(cell);
     }
-
+  
     // Aggiunta della riga al contenitore della griglia:
     board.appendChild(rowElem);
   }
@@ -154,6 +154,10 @@ resetButton.addEventListener('click', function() {
   // Resetta la griglia:
   generateBoard(1);
 });
+
+// VERSIONE NON PUSHATA:
+
+
 
 
 

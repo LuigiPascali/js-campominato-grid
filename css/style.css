@@ -6,11 +6,14 @@ h1 {color: var(--light_color);}
 
 body {background-image: url("../img/img_bg.jpg");background-repeat: no-repeat;background-size: cover;}
 
-.cell {height: 6.25rem;width: 6.25rem; color: var(--dark_color); background-color: transparent;border: 1px solid var(--grid_cell_border);cursor: pointer;}
+/* Stile per le righe della griglia */
+.row { display: flex;}
 
-.cell:hover {background-color: var(--hover_color);}
-
+.cell {display: flex;justify-content: center;align-items: center;text-align: center;height: 3.125rem;width: 3.125rem;color: var(--dark_color);background-color: transparent;border: 1px solid var(--grid_cell_border);cursor: pointer;}
+  
 .cell.clicked {background-color: var(--clicked_color);}
+ 
+.cell:hover {background-color: var(--hover_color);}
 
 .btn {background-color: var(--button_color); color: var(--light_color); padding: .625rem 1.25rem; border-radius: .3125rem; text-transform: uppercase; box-shadow: 0rem .125rem .3125rem rgba(0, 0, 0, 0.25); cursor: pointer;}
   
