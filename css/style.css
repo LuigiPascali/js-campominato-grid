@@ -6,7 +6,6 @@ h1 {color: var(--light_color);}
 
 body {background-image: url("../img/img_bg.jpg");background-repeat: no-repeat;background-size: cover;}
 
-/* Stile per le righe della griglia */
 .row { display: flex;}
 
 .cell {display: flex;justify-content: center;align-items: center;text-align: center;height: 3.125rem;width: 3.125rem;color: var(--light_color);background-color: transparent;border: 1px solid var(--grid_cell_border);cursor: pointer;}
